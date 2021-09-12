@@ -31,7 +31,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "MW1.31"
+			"dev-master": "dev-MW1.31"
 		}
 	},
 	"scripts":{
