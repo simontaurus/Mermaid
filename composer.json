@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/mermaid",
+	"name": "simontaurus/mermaid",
 	"type": "mediawiki-extension",
 	"description": "Provides a parser function to generate diagrams and charts with the help of the mermaid script language",
 	"keywords": [
@@ -9,6 +9,12 @@
 	],
 	"homepage": "https://github.com/SemanticMediaWiki/Mermaid",
 	"license": "GPL-2.0-or-later",
+	"repositories": [
+                {
+                        "type": "git",
+                        "url": "https://github.com/simontaurus/Mermaid.git"
+                }
+        ],
 	"authors": [
 		{
 			"name": "James Hong Kong",
@@ -25,7 +31,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "3.x-dev"
+			"dev-master": "MW1.31"
 		}
 	},
 	"scripts":{
